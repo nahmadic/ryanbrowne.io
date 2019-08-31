@@ -1,0 +1,12 @@
+// Abstracts
+@import "abstracts/reset";
+@import "abstracts/vars";
+@import "abstracts/typography";
+
+// Components
+@import "components/layout";
+@import "components/header";
+@import "components/footer";
+
+// Pages
+@import "pages/index";
