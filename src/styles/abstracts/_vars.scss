@@ -17,6 +17,8 @@ $color-brand-accent: #ff71ce;
 // Breakpoints
 // We use EM for breakpoints to maintain consistency in all browsers.
 
+// 480px
+$breakpoint-extra-small: "only screen and (max-width: 30em)";
 // 600px
 $breakpoint-small: "only screen and (max-width: 37.5em)";
 // 750px

@@ -13,6 +13,10 @@
     @media #{$breakpoint-small} {
       font-size: 6rem;
     }
+
+    @media #{$breakpoint-extra-small} {
+      font-size: 5rem;
+    }
   }
 
   h2 {
@@ -23,6 +27,10 @@
 
     @media #{$breakpoint-small} {
       font-size: 3.5rem;
+    }
+
+    @media #{$breakpoint-extra-small} {
+      font-size: 3rem;
     }
   }
 }
