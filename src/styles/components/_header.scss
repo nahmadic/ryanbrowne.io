@@ -13,5 +13,35 @@
   a {
     font-size: 2.6rem;
     letter-spacing: -3px;
+    text-decoration-color: $color-brand-accent;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $color-brand-accent;
+    }
+  }
+}
+
+.header__links {
+  display: flex;
+}
+
+.header__link {
+
+  &:last-of-type {
+    img {
+      margin-right: 0;
+    }
+  }
+
+  img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-color: $color-brand-primary;
+    }
   }
 }
