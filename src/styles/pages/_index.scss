@@ -1,10 +1,18 @@
 .index__content {
   padding-left: 15%;
 
+  @media #{$breakpoint-medium-small} {
+    padding: 0 4rem;
+  }
+
   h1 {
     font-size: 7rem;
     line-height: 1.5;
     letter-spacing: -0.7rem;
+
+    @media #{$breakpoint-small} {
+      font-size: 6rem;
+    }
   }
 
   h2 {
@@ -12,5 +20,9 @@
     font-size: 4rem;
     font-weight: 400;
     line-height: 1.2;
+
+    @media #{$breakpoint-small} {
+      font-size: 3.5rem;
+    }
   }
 }
