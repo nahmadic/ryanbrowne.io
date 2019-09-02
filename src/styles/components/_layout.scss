@@ -7,3 +7,32 @@ body {
   background-color: $color-dark;
   color: $color-light;
 }
+
+.page-container {
+  position: relative;
+  height: 100vh;
+}
+
+.page-container__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.gatsby-image-wrapper {
+  height: 100%;
+  z-index: 1;
+}
+
+.page-container__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: radial-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
+}
