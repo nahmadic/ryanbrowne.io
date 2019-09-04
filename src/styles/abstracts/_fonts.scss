@@ -1,0 +1,12 @@
+@font-face {	
+  font-family: "Arial Blk";	
+  font-weight: 500;	
+  font-style: normal;	
+  font-display: swap; /* Read next point */	
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  src: local("Arial Black"),
+  url("/fonts/") format("woff"),
+  url("/fonts/ariblk.woff") format("woff"),
+  url("/fonts/ariblk.woff2") format("woff2"),
+  url("/fonts/ariblk.ttf") format("truetype");
+}
