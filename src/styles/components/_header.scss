@@ -35,21 +35,63 @@
 }
 
 .header__link {
+  margin-right: 2rem;
 
   &:last-of-type {
-    img {
-      margin-right: 0;
-    }
+    margin-right: 0;
   }
 
-  img {
-    height: 3rem;
-    width: 3rem;
-    margin-right: 1rem;
-    border-bottom: 2px solid transparent;
+  a {
+    font-size: 2.6rem;
+    letter-spacing: -3px;
+    transition: 0.2s color;
 
-    &:hover {
-      border-color: $color-brand-primary;
+    &::after {
+      content: ".";
     }
+  }
+}
+
+.header__link--email a {
+
+  &:hover{
+    color: $color-gmail;
+  }
+
+  &::after {
+    color: $color-gmail;
+  }
+}
+
+.header__link--github a {
+
+  &:hover{
+    color: $color-github;
+  }
+
+  &::after {
+    color: $color-github;
+  }
+}
+
+.header__link--linkedin a {
+
+  &:hover{
+    color: $color-linkedin;
+  }
+
+  &::after {
+    color: $color-linkedin;
+  }
+}
+
+.header__link--twitter a {
+
+  &:hover{
+    color: $color-twitter;
+  }
+
+  &::after {
+    color: $color-twitter;
   }
 }
