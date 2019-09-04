@@ -19,7 +19,7 @@ const Header = () => {
           <a href="https://www.linkedin.com/in/ryan-s-browne/" target="_blank">li</a>
         </div>
         <div className="header__link header__link--email">
-          <a href="mailto:hello@ryanbrowne.io?subject=Let's%20work%20together!" target="_blank">em</a>
+          <a href="mailto:hello@ryanbrowne.io?subject=Let's%20work%20together!">em</a>
         </div>
       </div>
     </header>
