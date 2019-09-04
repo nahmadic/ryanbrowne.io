@@ -8,7 +8,11 @@
   h1 {
     font-size: 7rem;
     line-height: 1.5;
-    letter-spacing: -0.7rem;
+    letter-spacing: -7px;
+
+    @media #{$breakpoint-small-medium} {
+      letter-spacing: -5px;
+    }
 
     @media #{$breakpoint-small} {
       font-size: 6rem;

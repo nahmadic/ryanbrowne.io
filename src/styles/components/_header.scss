@@ -22,6 +22,10 @@
     letter-spacing: -3px;
     text-decoration-color: $color-brand-accent;
 
+    @media #{$breakpoint-small-medium} {
+      letter-spacing: -2px;
+    }
+
     &:hover {
       text-decoration: underline;
       text-decoration-color: $color-brand-accent;
@@ -45,6 +49,10 @@
     font-size: 2.6rem;
     letter-spacing: -3px;
     transition: 0.2s color;
+
+    @media #{$breakpoint-small-medium} {
+      letter-spacing: -2px;
+    }
 
     &::after {
       content: ".";
