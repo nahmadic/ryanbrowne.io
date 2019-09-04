@@ -32,5 +32,25 @@
     @media #{$breakpoint-extra-small} {
       font-size: 3rem;
     }
+
+    a {
+      font-family: $font-family-body;
+      font-size: 4rem;
+      font-weight: 600;
+      line-height: 1.2;
+
+      @media #{$breakpoint-small} {
+        font-size: 3.5rem;
+      }
+  
+      @media #{$breakpoint-extra-small} {
+        font-size: 3rem;
+      }
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: $color-brand-primary;
+      }
+    }
   }
 }
